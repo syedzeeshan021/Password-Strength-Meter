@@ -210,7 +210,24 @@ else:
 # Main Content
 # ------------------------------------------------------------------------------
 st.title("🔒 Password Strength Meter & Generator")
-st.markdown("This interactive tool evaluates the strength of your password and generates a strong alternative to improve your online security.")
+st.subheader("What is Password and why it is important now a days?")
+st.markdown("""
+    Passwords are crucial for online security and data protection. They serve as a barrier to unauthorized access, ensuring that only those with the right credentials can gain access to sensitive information. This tool helps you evaluate the strength of your password and suggests improvements to enhance your online security.
+""")
+st.markdown("""
+    **Why is it important?**
+    - **Protection:** Protects against unauthorized access to your accounts.
+    - **Data Security:** Ensures data integrity and confidentiality.
+    - **Online Identity:** Maintains online identity and privacy.
+    - **Password Complexity:** Increases password strength and reduces potential risks.
+    - **Account Security:** Enhances overall account security.
+""")
+st.markdown("""
+    **How to use this tool:**
+    - **Evaluate Your Password:** Enter your password to assess its strength.
+    - **Generate a Strong Password:** Get a randomly generated strong password.
+    - **Your Feedback:** Share your thoughts and suggestions on improving this tool.
+""")
 
 # --- Password Evaluation Section ---
 st.subheader("Evaluate Your Password")
